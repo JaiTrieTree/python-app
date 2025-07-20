@@ -8,7 +8,8 @@ servers:
 - grpc-web: true
   grpc-web-root-path: ""
   insecure: true
+  plain-text: true
   server: localhost:9443
 users:
-- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTc1MzA5MTA2NiwibmJmIjoxNzUzMDA0NjY2LCJpYXQiOjE3NTMwMDQ2NjYsImp0aSI6IjAzNWJiNmU1LTFlMGMtNDEzZS1hODI3LTU0ZTRhNzgzYTkyYSJ9.hFNRqapeK9HpR8_i2u5eus48eVSyEPxkUEZbrdWp-l0
+- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTc1MzA5MTg5MSwibmJmIjoxNzUzMDA1NDkxLCJpYXQiOjE3NTMwMDU0OTEsImp0aSI6IjhlYzRlYjBjLTZhYWItNDdlMC04ODgzLTgyMjYzYjJjY2E3MyJ9.niGW0SP2XczpoOUbLiabMjz_ETSurhRYDzhI3ZvnhOQ
   name: localhost:9443
