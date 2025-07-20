@@ -1,13 +1,13 @@
 from flask import Flask, jsonify
-import datetime, socket, os
+import datetime, socket
 app = Flask(__name__)
 @app.route("/api/v1/info")
 def info():
     return jsonify({
-        "time": datetime.datetime.now().strftime("%I:%M:%S%p %B %d, %Y"),
+        "time": datetime.datetime.now().strftime("%I:%M:%S%p on %B %d, %Y"),
         "hostname": socket.gethostname(),
-        "message": "You are doing great, little human! ❤️",
-        "deployed_on": os.getenv("ENVIRONMENT", "kubernetes")
+        "message": "You are doing great, little human! <3",
+        "deployed_on": "kubernetes"
     })
 @app.route("/api/v1/healthz")
 def health(): return jsonify({"status":"up"}), 200
