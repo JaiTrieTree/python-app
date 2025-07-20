@@ -2,15 +2,7 @@ global:
   ingress:
     enabled: true
     className: nginx
-    hosts: ["argo.test.com"]
+    hosts: ["argo.52.36.203.84.nip.io"]
     tls: true
-    annotations:
-      nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
-      nginx.ingress.kubernetes.io/ssl-passthrough: "true"
-configs:
-  params:
-    server.insecure: "true"
 redis-ha: { enabled: false }
-server:    { replicas: 1 }
-repoServer:{ replicas: 1 }
-applicationSet:{ replicas: 1 }
+server: { replicas: 1 }
