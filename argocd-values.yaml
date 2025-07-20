@@ -6,3 +6,5 @@ global:
     tls: true
 redis-ha: { enabled: false }
 server: { replicas: 1 }
+repoServer: { replicas: 1 }
+applicationSet: { replicas: 1 }
