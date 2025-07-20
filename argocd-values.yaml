@@ -2,7 +2,7 @@ global:
   ingress:
     enabled: true
     className: nginx
-    hosts: ["argo.52.36.203.84.nip.io"]
+    hosts: ["argo.test.com"]
     tls: true
 redis-ha: {enabled: false}
 server:    {replicas: 1}

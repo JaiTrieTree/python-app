@@ -1,0 +1,14 @@
+contexts:
+- name: localhost:9443
+  server: localhost:9443
+  user: localhost:9443
+current-context: localhost:9443
+prompts-enabled: false
+servers:
+- grpc-web: true
+  grpc-web-root-path: ""
+  insecure: true
+  server: localhost:9443
+users:
+- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTc1MzA4OTY1OSwibmJmIjoxNzUzMDAzMjU5LCJpYXQiOjE3NTMwMDMyNTksImp0aSI6ImFhMDBjYmQxLTljM2UtNDAxYy05YjlkLTZhZDZkMjFmOGNlMyJ9.6UYEsdQgOzdBcTsJW64FdcUUz5ukBICfMMqO-2zLcNc
+  name: localhost:9443

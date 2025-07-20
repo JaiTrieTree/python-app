@@ -1,11 +1,11 @@
-argo
+argocd-notifications
 argo-cd
 argo-ci
 argo-lite
-argo-workflows
-argocd-notifications
-argo-events
 argo-rollouts
+argo-workflows
+argocd-image-updater
+argo
+argo-events
 argocd-applicationset
 argocd-apps
-argocd-image-updater
