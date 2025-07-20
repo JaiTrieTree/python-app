@@ -3,6 +3,8 @@ global:
     enabled: true
     className: nginx
     hosts: ["argo.52.36.203.84.nip.io"]
-    tls: false
-redis-ha: { enabled: false }
-server: { extraArgs: ["--insecure"] }
+    tls: true
+redis-ha: {enabled: false}
+server:    {replicas: 1}
+repoServer:{replicas: 1}
+applicationSet:{replicas: 1}

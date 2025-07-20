@@ -58,7 +58,7 @@ ingress:
   # kubernetes.io/ingress.class: nginx
   # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: python-app.52.36.203.84.nip.io
+    - host: python-app.test.com
       paths:
         - path: /
           pathType: Prefix

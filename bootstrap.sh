@@ -13,7 +13,7 @@ log()     { printf "\e[1;32m▸ %s\e[0m\n" "$*"; }
 warn()    { printf "\e[1;33m! %s\e[0m\n" "$*"; }
 
 # ───────── interactive input ─────────
-prompt DEPLOY_TARGET "ec2"   "Deploy target  (ec2 | local)"
+prompt DEPLOY_TARGET "local" "K8s cluster type (kind-in-Docker | existing)"
 prompt GITHUB_USER   ""      "GitHub username"
 prompt GITHUB_REPO   "python-app" "GitHub repo name"
 secret GITHUB_PAT    "GitHub PAT (repo+workflow scopes)"
