@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1753002399,,"wq!"
+|2,0,1753002897,,"wq!"
 :1
-|2,0,1753002390,,"1"
+|2,0,1753002889,,"1"
+:1`
+|2,0,1753002519,,"1`"
 :q!
 |2,0,1753002027,,"q!"
 
@@ -29,38 +31,88 @@
 # Registers:
 
 # File marks:
-'0  295  0  ~/bootstrap.sh
-|4,48,295,0,1753002399,"~/bootstrap.sh"
+'0  313  0  ~/bootstrap.sh
+|4,48,313,0,1753002897,"~/bootstrap.sh"
 '1  1  0  ~/bootstrap.sh
-|4,49,1,0,1753002163,"~/bootstrap.sh"
-'2  322  0  ~/bootstrap.sh
-|4,50,322,0,1753002163,"~/bootstrap.sh"
-'3  1  0  ~/bootstrap.sh
-|4,51,1,0,1753002027,"~/bootstrap.sh"
-'4  1  0  ~/bootstrap.sh
-|4,52,1,0,1753002027,"~/bootstrap.sh"
-'5  1  0  ~/bootstrap.sh
-|4,53,1,0,1753002027,"~/bootstrap.sh"
-'6  1  0  ~/bootstrap.sh
-|4,54,1,0,1753002027,"~/bootstrap.sh"
-'7  1  2  ~/bootstrap.sh
-|4,55,1,2,1753002001,"~/bootstrap.sh"
-'8  1  2  ~/bootstrap.sh
-|4,56,1,2,1753002001,"~/bootstrap.sh"
-'9  509  2  ~/bootstrap.sh
-|4,57,509,2,1753002001,"~/bootstrap.sh"
+|4,49,1,0,1753002698,"~/bootstrap.sh"
+'2  332  0  ~/bootstrap.sh
+|4,50,332,0,1753002698,"~/bootstrap.sh"
+'3  1  2  ~/bootstrap.sh
+|4,51,1,2,1753002528,"~/bootstrap.sh"
+'4  395  2  ~/bootstrap.sh
+|4,52,395,2,1753002528,"~/bootstrap.sh"
+'5  1  2  ~/bootstrap.sh
+|4,53,1,2,1753002528,"~/bootstrap.sh"
+'6  415  2  ~/bootstrap.sh
+|4,54,415,2,1753002528,"~/bootstrap.sh"
+'7  1  0  ~/bootstrap.sh
+|4,55,1,0,1753002399,"~/bootstrap.sh"
+'8  1  0  ~/bootstrap.sh
+|4,56,1,0,1753002399,"~/bootstrap.sh"
+'9  1  0  ~/bootstrap.sh
+|4,57,1,0,1753002399,"~/bootstrap.sh"
 
 # Jumplist (newest first):
+-'  313  0  ~/bootstrap.sh
+|4,39,313,0,1753002897,"~/bootstrap.sh"
+-'  1  0  ~/bootstrap.sh
+|4,39,1,0,1753002888,"~/bootstrap.sh"
+-'  332  0  ~/bootstrap.sh
+|4,39,332,0,1753002698,"~/bootstrap.sh"
+-'  1  2  ~/bootstrap.sh
+|4,39,1,2,1753002688,"~/bootstrap.sh"
+-'  395  2  ~/bootstrap.sh
+|4,39,395,2,1753002528,"~/bootstrap.sh"
+-'  415  2  ~/bootstrap.sh
+|4,39,415,2,1753002528,"~/bootstrap.sh"
+-'  1  0  ~/bootstrap.sh
+|4,39,1,0,1753002518,"~/bootstrap.sh"
 -'  295  0  ~/bootstrap.sh
 |4,39,295,0,1753002399,"~/bootstrap.sh"
 -'  1  0  ~/bootstrap.sh
 |4,39,1,0,1753002389,"~/bootstrap.sh"
+-'  337  0  ~/bootstrap.sh
+|4,39,337,0,1753002163,"~/bootstrap.sh"
+-'  421  0  ~/bootstrap.sh
+|4,39,421,0,1753002163,"~/bootstrap.sh"
+-'  357  0  ~/bootstrap.sh
+|4,39,357,0,1753002163,"~/bootstrap.sh"
+-'  441  0  ~/bootstrap.sh
+|4,39,441,0,1753002163,"~/bootstrap.sh"
 -'  322  0  ~/bootstrap.sh
 |4,39,322,0,1753002163,"~/bootstrap.sh"
 -'  1  0  ~/bootstrap.sh
 |4,39,1,0,1753002148,"~/bootstrap.sh"
 -'  1  0  ~/bootstrap.sh
 |4,39,1,0,1753002027,"~/bootstrap.sh"
+-'  524  2  ~/bootstrap.sh
+|4,39,524,2,1753002017,"~/bootstrap.sh"
+-'  552  2  ~/bootstrap.sh
+|4,39,552,2,1753002017,"~/bootstrap.sh"
+-'  405  2  ~/bootstrap.sh
+|4,39,405,2,1753002017,"~/bootstrap.sh"
+-'  433  2  ~/bootstrap.sh
+|4,39,433,2,1753002017,"~/bootstrap.sh"
+-'  608  2  ~/bootstrap.sh
+|4,39,608,2,1753002017,"~/bootstrap.sh"
+-'  636  2  ~/bootstrap.sh
+|4,39,636,2,1753002017,"~/bootstrap.sh"
+-'  489  2  ~/bootstrap.sh
+|4,39,489,2,1753002017,"~/bootstrap.sh"
+-'  517  2  ~/bootstrap.sh
+|4,39,517,2,1753002017,"~/bootstrap.sh"
+-'  544  2  ~/bootstrap.sh
+|4,39,544,2,1753002017,"~/bootstrap.sh"
+-'  572  2  ~/bootstrap.sh
+|4,39,572,2,1753002017,"~/bootstrap.sh"
+-'  425  2  ~/bootstrap.sh
+|4,39,425,2,1753002017,"~/bootstrap.sh"
+-'  453  2  ~/bootstrap.sh
+|4,39,453,2,1753002017,"~/bootstrap.sh"
+-'  628  2  ~/bootstrap.sh
+|4,39,628,2,1753002017,"~/bootstrap.sh"
+-'  656  2  ~/bootstrap.sh
+|4,39,656,2,1753002017,"~/bootstrap.sh"
 -'  509  2  ~/bootstrap.sh
 |4,39,509,2,1753002017,"~/bootstrap.sh"
 -'  537  2  ~/bootstrap.sh
@@ -73,6 +125,102 @@
 |4,39,537,2,1753001965,"~/bootstrap.sh"
 -'  1  2  ~/bootstrap.sh
 |4,39,1,2,1753001943,"~/bootstrap.sh"
+-'  385  2  ~/bootstrap.sh
+|4,39,385,2,1753001477,"~/bootstrap.sh"
+-'  386  2  ~/bootstrap.sh
+|4,39,386,2,1753001477,"~/bootstrap.sh"
+-'  601  2  ~/bootstrap.sh
+|4,39,601,2,1753001477,"~/bootstrap.sh"
+-'  602  2  ~/bootstrap.sh
+|4,39,602,2,1753001477,"~/bootstrap.sh"
+-'  413  2  ~/bootstrap.sh
+|4,39,413,2,1753001477,"~/bootstrap.sh"
+-'  414  2  ~/bootstrap.sh
+|4,39,414,2,1753001477,"~/bootstrap.sh"
+-'  629  2  ~/bootstrap.sh
+|4,39,629,2,1753001477,"~/bootstrap.sh"
+-'  630  2  ~/bootstrap.sh
+|4,39,630,2,1753001477,"~/bootstrap.sh"
+-'  482  2  ~/bootstrap.sh
+|4,39,482,2,1753001477,"~/bootstrap.sh"
+-'  483  2  ~/bootstrap.sh
+|4,39,483,2,1753001477,"~/bootstrap.sh"
+-'  510  2  ~/bootstrap.sh
+|4,39,510,2,1753001477,"~/bootstrap.sh"
+-'  511  2  ~/bootstrap.sh
+|4,39,511,2,1753001477,"~/bootstrap.sh"
+-'  469  2  ~/bootstrap.sh
+|4,39,469,2,1753001477,"~/bootstrap.sh"
+-'  470  2  ~/bootstrap.sh
+|4,39,470,2,1753001477,"~/bootstrap.sh"
+-'  685  2  ~/bootstrap.sh
+|4,39,685,2,1753001477,"~/bootstrap.sh"
+-'  686  2  ~/bootstrap.sh
+|4,39,686,2,1753001477,"~/bootstrap.sh"
+-'  497  2  ~/bootstrap.sh
+|4,39,497,2,1753001477,"~/bootstrap.sh"
+-'  498  2  ~/bootstrap.sh
+|4,39,498,2,1753001477,"~/bootstrap.sh"
+-'  713  2  ~/bootstrap.sh
+|4,39,713,2,1753001477,"~/bootstrap.sh"
+-'  714  2  ~/bootstrap.sh
+|4,39,714,2,1753001477,"~/bootstrap.sh"
+-'  350  2  ~/bootstrap.sh
+|4,39,350,2,1753001477,"~/bootstrap.sh"
+-'  351  2  ~/bootstrap.sh
+|4,39,351,2,1753001477,"~/bootstrap.sh"
+-'  566  2  ~/bootstrap.sh
+|4,39,566,2,1753001477,"~/bootstrap.sh"
+-'  567  2  ~/bootstrap.sh
+|4,39,567,2,1753001477,"~/bootstrap.sh"
+-'  378  2  ~/bootstrap.sh
+|4,39,378,2,1753001477,"~/bootstrap.sh"
+-'  379  2  ~/bootstrap.sh
+|4,39,379,2,1753001477,"~/bootstrap.sh"
+-'  594  2  ~/bootstrap.sh
+|4,39,594,2,1753001477,"~/bootstrap.sh"
+-'  595  2  ~/bootstrap.sh
+|4,39,595,2,1753001477,"~/bootstrap.sh"
+-'  405  2  ~/bootstrap.sh
+|4,39,405,2,1753001477,"~/bootstrap.sh"
+-'  406  2  ~/bootstrap.sh
+|4,39,406,2,1753001477,"~/bootstrap.sh"
+-'  621  2  ~/bootstrap.sh
+|4,39,621,2,1753001477,"~/bootstrap.sh"
+-'  622  2  ~/bootstrap.sh
+|4,39,622,2,1753001477,"~/bootstrap.sh"
+-'  433  2  ~/bootstrap.sh
+|4,39,433,2,1753001477,"~/bootstrap.sh"
+-'  434  2  ~/bootstrap.sh
+|4,39,434,2,1753001477,"~/bootstrap.sh"
+-'  649  2  ~/bootstrap.sh
+|4,39,649,2,1753001477,"~/bootstrap.sh"
+-'  650  2  ~/bootstrap.sh
+|4,39,650,2,1753001477,"~/bootstrap.sh"
+-'  502  2  ~/bootstrap.sh
+|4,39,502,2,1753001477,"~/bootstrap.sh"
+-'  503  2  ~/bootstrap.sh
+|4,39,503,2,1753001477,"~/bootstrap.sh"
+-'  530  2  ~/bootstrap.sh
+|4,39,530,2,1753001477,"~/bootstrap.sh"
+-'  531  2  ~/bootstrap.sh
+|4,39,531,2,1753001477,"~/bootstrap.sh"
+-'  489  2  ~/bootstrap.sh
+|4,39,489,2,1753001477,"~/bootstrap.sh"
+-'  490  2  ~/bootstrap.sh
+|4,39,490,2,1753001477,"~/bootstrap.sh"
+-'  705  2  ~/bootstrap.sh
+|4,39,705,2,1753001477,"~/bootstrap.sh"
+-'  706  2  ~/bootstrap.sh
+|4,39,706,2,1753001477,"~/bootstrap.sh"
+-'  517  2  ~/bootstrap.sh
+|4,39,517,2,1753001477,"~/bootstrap.sh"
+-'  518  2  ~/bootstrap.sh
+|4,39,518,2,1753001477,"~/bootstrap.sh"
+-'  733  2  ~/bootstrap.sh
+|4,39,733,2,1753001477,"~/bootstrap.sh"
+-'  734  2  ~/bootstrap.sh
+|4,39,734,2,1753001477,"~/bootstrap.sh"
 -'  370  2  ~/bootstrap.sh
 |4,39,370,2,1753001477,"~/bootstrap.sh"
 -'  371  2  ~/bootstrap.sh
@@ -95,35 +243,23 @@
 |4,39,615,2,1753001477,"~/bootstrap.sh"
 -'  1  2  ~/bootstrap.sh
 |4,39,1,2,1753001453,"~/bootstrap.sh"
--'  367  2  ~/bootstrap.sh
-|4,39,367,2,1752999653,"~/bootstrap.sh"
--'  368  2  ~/bootstrap.sh
-|4,39,368,2,1752999653,"~/bootstrap.sh"
--'  583  2  ~/bootstrap.sh
-|4,39,583,2,1752999653,"~/bootstrap.sh"
--'  584  2  ~/bootstrap.sh
-|4,39,584,2,1752999653,"~/bootstrap.sh"
--'  395  2  ~/bootstrap.sh
-|4,39,395,2,1752999653,"~/bootstrap.sh"
--'  396  2  ~/bootstrap.sh
-|4,39,396,2,1752999653,"~/bootstrap.sh"
--'  611  2  ~/bootstrap.sh
-|4,39,611,2,1752999653,"~/bootstrap.sh"
--'  612  2  ~/bootstrap.sh
-|4,39,612,2,1752999653,"~/bootstrap.sh"
--'  611  2  ~/bootstrap.sh
-|4,39,611,2,1752999653,"~/bootstrap.sh"
--'  612  2  ~/bootstrap.sh
-|4,39,612,2,1752999653,"~/bootstrap.sh"
--'  1  0  ~/bootstrap.sh
-|4,39,1,0,1752999635,"~/bootstrap.sh"
+-'  382  2  ~/bootstrap.sh
+|4,39,382,2,1752999653,"~/bootstrap.sh"
+-'  383  2  ~/bootstrap.sh
+|4,39,383,2,1752999653,"~/bootstrap.sh"
+-'  598  2  ~/bootstrap.sh
+|4,39,598,2,1752999653,"~/bootstrap.sh"
+-'  599  2  ~/bootstrap.sh
+|4,39,599,2,1752999653,"~/bootstrap.sh"
+-'  410  2  ~/bootstrap.sh
+|4,39,410,2,1752999653,"~/bootstrap.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/bootstrap.sh
-	*	1753002398	0
-	"	295	0
-	^	295	0
-	.	294	3
+	*	1753002896	0
+	"	313	0
+	^	313	0
+	.	312	3
 	+	1	19
-	+	294	3
+	+	312	3

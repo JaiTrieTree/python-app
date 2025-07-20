@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route("/api/v1/info")
 def info():
     return jsonify({
-        "time": datetime.datetime.now().strftime("%I:%M:%S%p on %B %d, %Y"),
+        "time": datetime.datetime.now().strftime("%I:%M:%S%p %B %d %Y"),
         "hostname": socket.gethostname(),
         "message": "You are doing great, little human! <3",
         "deployed_on": "kubernetes"
