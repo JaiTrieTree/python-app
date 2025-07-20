@@ -206,7 +206,7 @@ else
   ARGO_API="$ARGO_HOST"
 fi
 
-argocd login "$ARGO_API" --insecure --grpc-web -u admin -p "$ARGO_PASS"
+argocd login "$ARGO_API" --insecure --grpc-web --username admin --password "$ARGO_PASS"
 
 #────────────────── Register repo & app ─────────────────
 log "Registering repo & creating application"
