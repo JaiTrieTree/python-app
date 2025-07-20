@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: techitfactory/python-app
+  tag: v0
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 5000
+
+ingress:
+  enabled: true
+  className: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  hosts:
+    - host: python-app.52.36.203.84.nip.io
+      paths:
+        - path: /
+          pathType: Prefix
